@@ -1,0 +1,19 @@
+{
+  "name": "world-of-harnesses",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A verified, machine-readable catalog of AI agent harnesses and adjacent runtime infrastructure.",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "dev": "node scripts/serve.mjs",
+    "refresh": "node scripts/refresh.mjs",
+    "validate": "node scripts/validate.mjs",
+    "validate:site": "node scripts/validate-site.mjs",
+    "verify:links": "node scripts/verify-links.mjs",
+    "test": "npm run validate && npm run validate:site"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

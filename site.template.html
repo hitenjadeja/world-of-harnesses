@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>World of Harnesses — AI Agent Harness Catalog</title>
+    <meta name="description" content="Explore 195 verified AI agent harnesses, coding agents, orchestration frameworks, memory systems, sandboxes, observability tools, and evaluations.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="World of Harnesses contributors">
+    <meta name="theme-color" content="#12312d">
+    <link rel="canonical" href="{{SITE_URL}}">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="assets/favicon-48.png" type="image/png" sizes="48x48">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="site.webmanifest">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="World of Harnesses">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:title" content="World of Harnesses — AI Agent Harness Catalog">
+    <meta property="og:description" content="A broad, verified field guide to 195 agent harnesses and the infrastructure around them.">
+    <meta property="og:url" content="{{SITE_URL}}">
+    <meta property="og:image" content="{{SOCIAL_IMAGE_URL}}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="World of Harnesses, a verified field guide to AI agent infrastructure">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="World of Harnesses — AI Agent Harness Catalog">
+    <meta name="twitter:description" content="Explore 195 verified agent harnesses across 12 practical categories.">
+    <meta name="twitter:image" content="{{SOCIAL_IMAGE_URL}}">
+
+    <link rel="stylesheet" href="assets/styles.css">
+    <script type="application/ld+json">{{SCHEMA}}</script>
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to the catalog</a>
+
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="World of Harnesses home">
+        <img src="assets/favicon.svg" width="38" height="38" alt="">
+        <span>World of <strong>Harnesses</strong></span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#catalog">Catalog</a>
+        <a href="#method">Method</a>
+        <a class="header-source" href="https://github.com/hitenjadeja/world-of-harnesses" rel="noopener">View source<svg aria-hidden="true" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-glow hero-glow--one" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow--two" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span></span>Verified field guide <span class="eyebrow-divider">/</span> Updated <time datetime="{{UPDATED_ISO}}">{{UPDATED_HUMAN}}</time></p>
+          <h1 id="hero-title">Find the harness behind <em>capable agents.</em></h1>
+          <p class="hero-intro">A researched map of the runtimes, coding agents, orchestration layers, memory systems, and evaluation tools that turn language models into working agents.</p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#catalog">Explore the catalog<svg aria-hidden="true" viewBox="0 0 20 20"><path d="M4 10h12m-5-5 5 5-5 5"/></svg></a>
+            <a class="button button--ghost" href="data/harnesses.json" download>Download JSON<svg aria-hidden="true" viewBox="0 0 20 20"><path d="M10 3v10m-4-4 4 4 4-4M4 16h12"/></svg></a>
+          </div>
+        </div>
+        <dl class="hero-stats" aria-label="Catalog summary">
+          <div><dt>{{PROJECT_COUNT}}</dt><dd>verified projects</dd></div>
+          <div><dt>{{CATEGORY_COUNT}}</dt><dd>practical categories</dd></div>
+          <div><dt>{{OPEN_SOURCE_COUNT}}</dt><dd>open-source entries</dd></div>
+        </dl>
+        <div class="hero-note">
+          <span class="hero-note-number">01</span>
+          <p><strong>What is an agent harness?</strong> The runtime engineering layer that connects a model to tools, context, control, and an environment where it can act.</p>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="catalog" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">The landscape</p>
+            <h2 id="catalog-title">Browse the field</h2>
+          </div>
+          <p>Search every verified entry or narrow the map by category and availability.</p>
+        </div>
+
+        <div class="catalog-toolbar">
+          <label class="search-field" for="catalog-search">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+            <span class="visually-hidden">Search the catalog</span>
+            <input id="catalog-search" type="search" inputmode="search" autocomplete="off" placeholder="Search tools, capabilities, or tags…">
+            <kbd aria-hidden="true">/</kbd>
+          </label>
+          <button class="mobile-filter-button" id="open-filters" type="button">
+            <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M3 5h14M6 10h8M8 15h4"/></svg>
+            Filters <span id="mobile-filter-count" hidden>0</span>
+          </button>
+          <label class="sort-field" for="catalog-sort">
+            <span>Sort</span>
+            <select id="catalog-sort">
+              <option value="catalog">Curated order</option>
+              <option value="stars">Most starred</option>
+              <option value="name">Name A–Z</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="category-rail" aria-label="Quick category filters">
+          {{CATEGORY_CHIPS}}
+        </div>
+
+        <div class="catalog-layout">
+          <aside class="filter-sidebar" aria-label="Catalog filters">
+            <div class="filter-heading">
+              <h3>Categories</h3>
+              <button type="button" data-clear-filters>Reset</button>
+            </div>
+            <div class="filter-options">
+              {{CATEGORY_FILTERS}}
+            </div>
+            <fieldset class="availability-filters">
+              <legend>Availability</legend>
+              <label><input type="checkbox" value="open-source" data-availability><span>Open source</span></label>
+              <label><input type="checkbox" value="proprietary" data-availability><span>Proprietary</span></label>
+              <label><input type="checkbox" value="internal" data-availability><span>Internal</span></label>
+              <label><input type="checkbox" value="unclear" data-availability><span>Unclear</span></label>
+            </fieldset>
+            <p class="filter-footnote"><span aria-hidden="true">↳</span> Availability describes access, not a quality or security judgement.</p>
+          </aside>
+
+          <div class="results-column">
+            <div class="results-meta">
+              <p id="results-count" role="status" aria-live="polite">Showing {{PROJECT_COUNT}} projects</p>
+              <p>Verified against a live catalog or primary source</p>
+            </div>
+            <div class="catalog-grid" id="catalog-grid">
+              {{CARDS}}
+            </div>
+            <div class="empty-state" id="empty-state" hidden>
+              <span aria-hidden="true">∅</span>
+              <h3>No harnesses found</h3>
+              <p>Try a broader search or reset the filters.</p>
+              <button class="button button--primary" type="button" data-clear-filters>Reset filters</button>
+            </div>
+            <button class="load-more" id="load-more" type="button">Show more projects <span aria-hidden="true">↓</span></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="method-section" id="method" aria-labelledby="method-title">
+        <div class="method-intro">
+          <p class="kicker">How this catalog works</p>
+          <h2 id="method-title">Breadth first.<br><em>Evidence always.</em></h2>
+          <p>“Verified” means the record passed schema and duplicate checks and its discovery source or primary source was live on the snapshot date. It is not a security endorsement.</p>
+          <a href="ATTRIBUTION.md">Read the full methodology<svg aria-hidden="true" viewBox="0 0 20 20"><path d="M4 10h12m-5-5 5 5-5 5"/></svg></a>
+        </div>
+        <ol class="method-steps">
+          <li><span>01</span><div><h3>Collect broadly</h3><p>Start with a community-maintained census spanning established and emerging categories.</p></div></li>
+          <li><span>02</span><div><h3>Check primary sources</h3><p>Verify additions against official repositories, product documentation, and engineering posts.</p></div></li>
+          <li><span>03</span><div><h3>Keep the caveats visible</h3><p>Separate open, proprietary, and internal systems, preserve provenance, and date every check.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="data-section" aria-labelledby="data-title">
+        <div>
+          <p class="kicker">Built to be reused</p>
+          <h2 id="data-title">The catalog is data, too.</h2>
+          <p>Use the machine-readable snapshot in your own research, comparisons, or tooling. The combined catalog is available under CC BY-SA 4.0.</p>
+        </div>
+        <div class="data-actions">
+          <a href="data/harnesses.json" download><span>JSON</span><strong>Full machine-readable catalog</strong><svg aria-hidden="true" viewBox="0 0 20 20"><path d="M10 3v10m-4-4 4 4 4-4M4 16h12"/></svg></a>
+          <a href="CATALOG.md"><span>MD</span><strong>Human-readable catalog</strong><svg aria-hidden="true" viewBox="0 0 20 20"><path d="M6 14 14 6M8 6h6v6"/></svg></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand brand--footer" href="./">
+        <img src="assets/favicon.svg" width="34" height="34" alt="">
+        <span>World of <strong>Harnesses</strong></span>
+      </a>
+      <p>A researched snapshot, not a claim of mathematical completeness.</p>
+      <div><a href="README.md">About</a><a href="LICENSE.md">License</a><a href="https://github.com/hitenjadeja/world-of-harnesses" rel="noopener">GitHub</a></div>
+    </footer>
+
+    <dialog id="filter-dialog" aria-labelledby="filter-dialog-title">
+      <div class="dialog-sheet">
+        <div class="dialog-handle" aria-hidden="true"></div>
+        <div class="dialog-header">
+          <div><p>Refine the field</p><h2 id="filter-dialog-title">Filters</h2></div>
+          <button type="button" id="close-filters" aria-label="Close filters"><svg aria-hidden="true" viewBox="0 0 20 20"><path d="m5 5 10 10M15 5 5 15"/></svg></button>
+        </div>
+        <div class="dialog-scroll">
+          <fieldset>
+            <legend>Category</legend>
+            <div class="filter-options filter-options--dialog">
+              {{CATEGORY_FILTERS}}
+            </div>
+          </fieldset>
+          <fieldset class="availability-filters availability-filters--dialog">
+            <legend>Availability</legend>
+            <label><input type="checkbox" value="open-source" data-availability><span>Open source</span></label>
+            <label><input type="checkbox" value="proprietary" data-availability><span>Proprietary</span></label>
+            <label><input type="checkbox" value="internal" data-availability><span>Internal</span></label>
+            <label><input type="checkbox" value="unclear" data-availability><span>Unclear</span></label>
+          </fieldset>
+        </div>
+        <div class="dialog-actions">
+          <button type="button" data-clear-filters>Clear all</button>
+          <button class="button button--primary" id="apply-filters" type="button">View projects</button>
+        </div>
+      </div>
+    </dialog>
+
+    <noscript><p class="noscript">JavaScript is off. The complete catalog remains available below; search and filters require JavaScript.</p></noscript>
+  </body>
+</html>
