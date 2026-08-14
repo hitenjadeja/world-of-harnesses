@@ -40,6 +40,28 @@ npm run refresh
 
 No package installation is required; the scripts use Node.js built-ins only.
 
+## Repeatable discovery
+
+`refresh` updates the known upstream census; it does not discover projects outside
+that source. Run the discovery workflow separately:
+
+```sh
+npm run discover -- --mode daily --days 7
+npm run discover -- --mode weekly --days 30
+```
+
+The command generates the complete search plan from
+`data/discovery-sources.json`: upstream deltas, generic launch-language searches,
+community launch signals, recent GitHub repositories, and a rotating official-vendor
+watchlist. Invoke the checked-in `$discover-harnesses` skill to execute the plan,
+trace leads to primary sources, update `data/additions.json`, and record plausible
+but unverified leads in `data/discovery-candidates.json`.
+
+A daily Codex Scheduled task can invoke the skill against this project. The daily
+run uses the seven-day window and rotating vendor batch; a weekly run should use the
+30-day deep mode so every vendor is checked. The search report must record every lane,
+including zero-result and blocked-source lanes.
+
 ## Scope
 
 An entry must materially provide at least one harness concern: an agent loop, tool execution, context assembly, memory, permissions or safety boundaries, orchestration, execution infrastructure, or agent evaluation. The catalog includes adjacent projects when they provide one of those layers directly.

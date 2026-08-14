@@ -6,12 +6,14 @@
   "description": "A verified, machine-readable catalog of AI agent harnesses and adjacent runtime infrastructure.",
   "scripts": {
     "build": "node scripts/build-site.mjs",
+    "discover": "node scripts/discover.mjs",
     "dev": "node scripts/serve.mjs",
     "refresh": "node scripts/refresh.mjs",
     "validate": "node scripts/validate.mjs",
+    "validate:discovery": "node scripts/validate-discovery.mjs",
     "validate:site": "node scripts/validate-site.mjs",
     "verify:links": "node scripts/verify-links.mjs",
-    "test": "npm run validate && npm run validate:site"
+    "test": "npm run validate && npm run validate:discovery && npm run validate:site"
   },
   "engines": {
     "node": ">=20"
