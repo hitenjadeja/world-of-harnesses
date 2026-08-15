@@ -2,13 +2,13 @@
   "meta": {
     "name": "World of Harnesses",
     "description": "A broad catalog of AI agent harnesses and the runtime, orchestration, memory, evaluation, and infrastructure projects that shape them.",
-    "generated_at": "2026-08-14",
-    "project_count": 196,
+    "generated_at": "2026-08-15",
+    "project_count": 197,
     "upstream_project_count": 161,
-    "independent_addition_count": 35,
+    "independent_addition_count": 36,
     "category_counts": {
       "progressive-disclosure": 8,
-      "coding-agent-products": 38,
+      "coding-agent-products": 39,
       "coding-harness-configs": 23,
       "personal-agent-runtimes": 10,
       "frameworks": 26,
@@ -21,7 +21,7 @@
       "libraries-sdks": 20
     },
     "availability_counts": {
-      "open-source": 135,
+      "open-source": 136,
       "unclear": 47,
       "proprietary": 13,
       "internal": 1
@@ -38,7 +38,7 @@
       {
         "name": "Independent primary-source pass",
         "url": "data/additions.json",
-        "captured": "2026-08-14"
+        "captured": "2026-08-15"
       }
     ]
   },
@@ -53,7 +53,7 @@
       "id": "coding-agent-products",
       "title": "Coding agent products (IDEs, CLIs, full suites)",
       "subtitle": "Turnkey coding agents you install and run: IDE extensions, terminal CLIs, Dockerized workspaces. Each entry notes which part is the harness (the agent loop, tool wiring, approval model) versus the UI shell (VS Code extension, TUI, browser client).",
-      "count": 38
+      "count": 39
     },
     {
       "id": "coding-harness-configs",
@@ -134,7 +134,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/headroomlabs-ai/headroom",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -154,7 +154,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/PatrickJS/awesome-cursorrules",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -175,7 +175,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/agentsmd/agents.md",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -197,7 +197,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/mksglu/context-mode",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -218,7 +218,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/langchain-ai/langgraph-bigtool",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -238,7 +238,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/xfey/MCP-Zero",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -259,7 +259,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/Reason-Wang/ToolGen",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -280,7 +280,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/antl3x/ToolRAG",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -304,7 +304,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/anomalyco/opencode",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -326,7 +326,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/google-gemini/gemini-cli",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -348,7 +348,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/openai/codex",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -370,7 +370,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/earendil-works/pi",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -416,7 +416,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/OpenHands/OpenHands",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -437,7 +437,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/openinterpreter/openinterpreter",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -458,7 +458,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/cline/cline",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -479,7 +479,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/aaif-goose/goose",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -502,7 +502,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -520,7 +520,7 @@
       "tags": [],
       "source_kind": "repository",
       "source_url": "https://github.com/BloopAI/vibe-kanban",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -542,7 +542,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/charmbracelet/crush",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -564,7 +564,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/QwenLM/qwen-code",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -587,7 +587,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/Kilo-Org/kilocode",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -607,7 +607,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/openai/symphony",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -630,7 +630,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/RooCodeInc/Roo-Code",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -655,7 +655,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/can1357/oh-my-pi",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -679,7 +679,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/1jehuang/jcode",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -700,7 +700,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/eigent-ai/eigent",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -722,7 +722,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/NanmiCoder/cc-haha",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -751,6 +751,31 @@
       "provenance": "independent-discovery"
     },
     {
+      "id": "huggingface/tau",
+      "name": "Tau",
+      "url": "https://twotimespi.dev/",
+      "repository": "huggingface/tau",
+      "description": "An educational Python terminal coding agent with a readable agent loop, typed file and shell tools, durable branching sessions, skills, project instructions, and a Textual TUI.",
+      "category": "coding-agent-products",
+      "availability": "open-source",
+      "license": "MIT",
+      "stars": 2323,
+      "tags": [
+        "python",
+        "cli",
+        "tui",
+        "agent-loop",
+        "skills",
+        "sessions"
+      ],
+      "source_kind": "official-product-page",
+      "verified_at": "2026-08-15",
+      "category_title": "Coding agent products (IDEs, CLIs, full suites)",
+      "source_url": "https://twotimespi.dev/",
+      "verification": "primary-source-checked",
+      "provenance": "independent-discovery"
+    },
+    {
       "id": "HarnessLab/claw-code-agent",
       "name": "claw-code-agent",
       "url": "https://github.com/HarnessLab/claw-code-agent",
@@ -769,7 +794,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/HarnessLab/claw-code-agent",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -790,7 +815,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/madarco/agentbox",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -813,7 +838,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/proliferate-ai/proliferate",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1151,7 +1176,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/obra/superpowers",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1169,7 +1194,7 @@
       "tags": [],
       "source_kind": "repository",
       "source_url": "https://github.com/anthropics/skills",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1189,7 +1214,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/garrytan/gstack",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1210,7 +1235,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/addyosmani/agent-skills",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1228,7 +1253,7 @@
       "tags": [],
       "source_kind": "repository",
       "source_url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1250,7 +1275,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/wshobson/agents",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1270,7 +1295,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/OthmanAdi/planning-with-files",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1292,7 +1317,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/SWE-agent/SWE-agent",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1313,7 +1338,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/open-gsd/gsd-core",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1336,7 +1361,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/anthropics/claude-agent-sdk-python",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1357,7 +1382,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/google/agents-cli",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1379,7 +1404,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/iflytek/skillhub",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1397,7 +1422,7 @@
       "tags": [],
       "source_kind": "repository",
       "source_url": "https://github.com/stanford-iris-lab/meta-harness",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1441,7 +1466,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/QuantaAlpha/RepoMaster",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1487,7 +1512,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/aiming-lab/AutoHarness",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1507,7 +1532,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/looptroop-ai/LoopTroop",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1597,7 +1622,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/RyanAlberts/pmstack",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1641,7 +1666,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/openclaw/openclaw",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1663,7 +1688,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/NousResearch/hermes-agent",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1686,7 +1711,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/HKUDS/nanobot",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1707,7 +1732,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/zhayujie/CowAgent",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1727,7 +1752,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/khoj-ai/khoj",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1749,7 +1774,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/elizaOS/eliza",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1773,7 +1798,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/agent0ai/agent-zero",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1794,7 +1819,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/HKUDS/OpenHarness",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1815,7 +1840,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/myshell-ai/AIlice",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1838,7 +1863,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/dylanneve1/talon",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1860,7 +1885,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/n8n-io/n8n",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1882,7 +1907,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1903,7 +1928,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/langflow-ai/langflow",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1925,7 +1950,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/langgenius/dify",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1945,7 +1970,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/langchain-ai/langchain",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1966,7 +1991,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/browser-use/browser-use",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -1987,7 +2012,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/FlowiseAI/Flowise",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2008,7 +2033,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/run-llama/llama_index",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2030,7 +2055,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/agno-agi/agno",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2051,7 +2076,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/langchain-ai/langgraph",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2071,7 +2096,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/microsoft/semantic-kernel",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2092,7 +2117,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/mastra-ai/mastra",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2114,7 +2139,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/deepset-ai/haystack",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2135,7 +2160,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/letta-ai/letta",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2156,7 +2181,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/browserbase/stagehand",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2177,7 +2202,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/RasaHQ/rasa",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2199,7 +2224,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/google/adk-python",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2220,7 +2245,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/botpress/botpress",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2243,7 +2268,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/SciPhi-AI/R2R",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2263,7 +2288,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/2FastLabs/agent-squad",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2284,7 +2309,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/OpenBMB/AgentVerse",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2302,7 +2327,7 @@
       "tags": [],
       "source_kind": "repository",
       "source_url": "https://github.com/TencentCloudADP/youtu-agent",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2325,7 +2350,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/i-am-bee/beeai-framework",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2343,7 +2368,7 @@
       "tags": [],
       "source_kind": "repository",
       "source_url": "https://github.com/agentstack-ai/AgentStack",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2363,7 +2388,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/howl-anderson/agentsilex",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2384,7 +2409,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/superagentxai/superagentx",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2405,7 +2430,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/FoundationAgents/MetaGPT",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2426,7 +2451,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/microsoft/autogen",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2447,7 +2472,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/FoundationAgents/OpenManus",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2467,7 +2492,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/crewAIInc/crewAI",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2487,7 +2512,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/OpenBMB/ChatDev",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2507,7 +2532,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/openai/openai-agents-python",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2529,7 +2554,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/microsoft/agent-framework",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2550,7 +2575,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/aden-hive/hive",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2571,7 +2596,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/MervinPraison/PraisonAI",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2593,7 +2618,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/omnigent-ai/omnigent",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2614,7 +2639,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/ag2ai/ag2",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2635,7 +2660,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/THUDM/AgentRL",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2726,7 +2751,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/modelcontextprotocol/servers",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2748,7 +2773,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/upstash/context7",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2770,7 +2795,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2792,7 +2817,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/Aider-AI/aider",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2815,7 +2840,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/microsoft/playwright-mcp",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2836,7 +2861,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/continuedev/continue",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2856,7 +2881,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/github/github-mcp-server",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2877,7 +2902,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/modelcontextprotocol/python-sdk",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2898,7 +2923,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/modelcontextprotocol/typescript-sdk",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2919,7 +2944,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/modelcontextprotocol/inspector",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2939,7 +2964,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/modelcontextprotocol/registry",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2960,7 +2985,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/microsoft/agent-governance-toolkit",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -2981,7 +3006,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/IBM/mcp-context-forge",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3002,7 +3027,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/cocoindex-io/cocoindex-code",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3020,7 +3045,7 @@
       "tags": [],
       "source_kind": "repository",
       "source_url": "https://github.com/Infisical/agent-vault",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3042,7 +3067,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/docker/mcp-gateway",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3088,7 +3113,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/withLinda/puppeteer-real-browser-mcp-server",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3109,7 +3134,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/ajhcs/Better-OpenCodeMCP",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3155,7 +3180,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/RyanAlberts/agentlog",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3175,7 +3200,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/thedotmack/claude-mem",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3196,7 +3221,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/mem0ai/mem0",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3219,7 +3244,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/topoteretes/cognee",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3242,7 +3267,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/getzep/graphiti",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3262,7 +3287,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/gastownhall/beads",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3284,7 +3309,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/microsoft/agent-lightning",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3306,7 +3331,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/SWE-bench/SWE-bench",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3330,7 +3355,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/THUDM/AgentBench",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3352,7 +3377,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/UKGovernmentBEIS/inspect_ai",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3372,7 +3397,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/web-arena-x/webarena",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3393,7 +3418,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/MinorJerry/WebVoyager",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3411,7 +3436,7 @@
       "tags": [],
       "source_kind": "repository",
       "source_url": "https://github.com/arcprize/ARC-AGI-2",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3432,7 +3457,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/SWE-bench/SWE-smith",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3454,7 +3479,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/SWE-Gym/SWE-Gym",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3475,7 +3500,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/UKGovernmentBEIS/inspect_evals",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3497,7 +3522,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/harbor-framework/terminal-bench",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3519,7 +3544,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/arcprize/arc-agi-benchmarking",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3543,7 +3568,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/vostride/agent-qa",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3561,7 +3586,7 @@
       "tags": [],
       "source_kind": "repository",
       "source_url": "https://github.com/meituan-longcat/vitabench",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3583,7 +3608,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/GAIR-NLP/AgencyBench",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3604,7 +3629,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/letta-ai/letta-evals",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3625,7 +3650,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/allenai/super-benchmark",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3666,7 +3691,7 @@
       "tags": [],
       "source_kind": "repository",
       "source_url": "https://github.com/patronus-ai/trail-benchmark",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3687,7 +3712,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/langfuse/langfuse",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3708,7 +3733,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/mlflow/mlflow",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3729,7 +3754,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/comet-ml/opik",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3750,7 +3775,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/Arize-ai/phoenix",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3773,7 +3798,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/bytedance/deer-flow",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3794,7 +3819,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/assafelovic/gpt-researcher",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3814,7 +3839,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/aiming-lab/AutoResearchClaw",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3834,7 +3859,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/MiroMindAI/MiroThinker",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3852,7 +3877,7 @@
       "tags": [],
       "source_kind": "repository",
       "source_url": "https://github.com/OpenAgentsInc/openagents",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3918,7 +3943,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/daytonaio/daytona",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3939,7 +3964,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/BerriAI/litellm",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3962,7 +3987,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/ComposioHQ/composio",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -3983,7 +4008,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/huggingface/smolagents",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -4006,7 +4031,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/langchain-ai/deepagents",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -4027,7 +4052,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/vercel/ai",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -4050,7 +4075,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/pydantic/pydantic-ai",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -4071,7 +4096,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/e2b-dev/E2B",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -4093,7 +4118,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/steel-dev/steel-browser",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -4116,7 +4141,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/strands-agents/harness-sdk",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -4137,7 +4162,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/cloudflare/agents",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -4159,7 +4184,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/openai/openai-agents-js",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -4181,7 +4206,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/kubernetes-sigs/agent-sandbox",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -4226,7 +4251,7 @@
       ],
       "source_kind": "repository",
       "source_url": "https://github.com/MaxGfeller/open-harness",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },
@@ -4313,7 +4338,7 @@
       "tags": [],
       "source_kind": "repository",
       "source_url": "https://github.com/brandonhimpfen/awesome-ai-agents",
-      "verified_at": "2026-08-14",
+      "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
     },

@@ -1,6 +1,6 @@
 # Harness catalog
 
-Verified snapshot: **2026-08-14** · **196 entries** · **12 categories**
+Verified snapshot: **2026-08-15** · **197 entries** · **12 categories**
 
 > Scope: agent harnesses plus adjacent runtimes, coding agents, orchestration, memory, tool, sandbox, observability, and evaluation infrastructure. “Verified” means the record passed schema/duplicate checks and its discovery source or primary source was live on the snapshot date; it is not a security endorsement.
 
@@ -19,7 +19,7 @@ Formats, runtimes, and patterns that reveal context, tools, or instructions in l
 | [ToolGen](https://github.com/Reason-Wang/ToolGen) | Unclear | ICLR 2025: unified tool retrieval and calling via generation; 47k+ tools without context stuffing—retrieval and invocation in one generative step. |
 | [ToolRAG](https://github.com/antl3x/ToolRAG) | Open source | Semantic tool retrieval for LLMs; serves only the tools the user query demands (MCP-compatible), unlimited tool sets with zero context penalty. |
 
-## Coding agent products (IDEs, CLIs, full suites) (38)
+## Coding agent products (IDEs, CLIs, full suites) (39)
 
 Turnkey coding agents you install and run: IDE extensions, terminal CLIs, Dockerized workspaces. Each entry notes which part is the harness (the agent loop, tool wiring, approval model) versus the UI shell (VS Code extension, TUI, browser client).
 
@@ -46,6 +46,7 @@ Turnkey coding agents you install and run: IDE extensions, terminal CLIs, Docker
 | [eigent](https://github.com/eigent-ai/eigent) | Unclear | Open-source desktop **harness** positioned as a local, free alternative to Claude Cowork and Codex: multi-agent workspace orchestration in a self-hosted app rather than a hosted product. |
 | [cc-haha](https://github.com/NanmiCoder/cc-haha) | Unclear | Local-first desktop workspace **harness** for Claude Code and other agents: multi-agent sessions, Git worktrees, code diffs, a skill marketplace, and chat-app access (WeChat, Telegram, WhatsApp). |
 | [Kimi CLI](https://github.com/MoonshotAI/kimi-cli) | Open source | Moonshot AI's open-source terminal coding agent, with an agent loop, shell and file tools, skills, MCP support, and Kimi model integration. |
+| [Tau](https://twotimespi.dev/) | Open source | An educational Python terminal coding agent with a readable agent loop, typed file and shell tools, durable branching sessions, skills, project instructions, and a Textual TUI. |
 | [claw-code-agent](https://github.com/HarnessLab/claw-code-agent) | Unclear | Python reimplementation of the Claude Code agent architecture with zero external dependencies; interactive chat, streaming, plugin runtime, nested agent delegation, cost tracking, MCP transport—portable harness without the Rust/TS toolchain. |
 | [AgentBox](https://github.com/madarco/agentbox) | Open source | Runs multiple coding agents in parallel, each in its own sandboxed VM, locally or in the cloud, from one command. The **harness** contribution is the VM-per-agent isolation and fleet fan-out layer; whichever agent runs inside owns the loop. |
 | [Proliferate](https://github.com/proliferate-ai/proliferate) | Open source | Open-source AI IDE for Claude Code, Codex, OpenCode, and more. The **harness** contribution is the workspace/session orchestration layer: run multiple coding agents in parallel, locally or in the cloud, with isolated workspaces, reusable workflows, and shared team context. |

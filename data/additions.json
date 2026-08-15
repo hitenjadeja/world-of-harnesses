@@ -476,5 +476,19 @@
     "tags": ["coding", "spec-driven", "quality-gates", "multi-model"],
     "source_kind": "repository",
     "verified_at": "2026-08-14"
+  },
+  {
+    "id": "huggingface/tau",
+    "name": "Tau",
+    "url": "https://twotimespi.dev/",
+    "repository": "huggingface/tau",
+    "description": "An educational Python terminal coding agent with a readable agent loop, typed file and shell tools, durable branching sessions, skills, project instructions, and a Textual TUI.",
+    "category": "coding-agent-products",
+    "availability": "open-source",
+    "license": "MIT",
+    "stars": 2323,
+    "tags": ["python", "cli", "tui", "agent-loop", "skills", "sessions"],
+    "source_kind": "official-product-page",
+    "verified_at": "2026-08-15"
   }
 ]
