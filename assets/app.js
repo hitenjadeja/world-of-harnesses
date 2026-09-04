@@ -18,7 +18,7 @@ const pageSize = 24;
 const params = new URLSearchParams(window.location.search);
 const validCategories = new Set(["all", ...cards.map((card) => card.dataset.category)]);
 const validAvailability = new Set(cards.map((card) => card.dataset.availability));
-const validSorts = new Set(["catalog", "stars", "name"]);
+const validSorts = new Set(["catalog", "stars", "name", "name-desc"]);
 
 const state = {
   category: validCategories.has(params.get("category")) ? params.get("category") : "all",
@@ -73,6 +73,7 @@ function sortedCards(matches) {
       return Number(right.dataset.stars) - Number(left.dataset.stars) || left.dataset.name.localeCompare(right.dataset.name);
     }
     if (state.sort === "name") return left.dataset.name.localeCompare(right.dataset.name);
+    if (state.sort === "name-desc") return right.dataset.name.localeCompare(left.dataset.name);
     return Number(left.dataset.index) - Number(right.dataset.index);
   });
 }

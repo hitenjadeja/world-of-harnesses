@@ -20,6 +20,8 @@ requireMatch(/"@type":"Dataset"/, "Dataset structured data missing");
 requireMatch(/<h1[^>]*>[^<]+/, "visible H1 missing");
 requireMatch(/<main id="main-content"/, "main landmark missing");
 requireMatch(/<dialog id="filter-dialog"/, "mobile filter dialog missing");
+requireMatch(/<option value="name">Name A–Z<\/option>/, "ascending alphabetical sort option missing");
+requireMatch(/<option value="name-desc">Name Z–A<\/option>/, "descending alphabetical sort option missing");
 
 const cardCount = (html.match(/class="catalog-card"/g) || []).length;
 if (cardCount !== catalog.entries.length) {
