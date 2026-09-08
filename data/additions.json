@@ -490,5 +490,19 @@
     "tags": ["python", "cli", "tui", "agent-loop", "skills", "sessions"],
     "source_kind": "official-product-page",
     "verified_at": "2026-08-15"
+  },
+  {
+    "id": "awslabs/aidlc-workflows",
+    "name": "AI-DLC Workflows",
+    "url": "https://github.com/awslabs/aidlc-workflows",
+    "repository": "awslabs/aidlc-workflows",
+    "description": "AWS Labs' software-delivery workflow engine for AI coding agents, with stage orchestration, human approval gates, persistent state, audit trails, and shared knowledge across supported coding harnesses.",
+    "category": "coding-harness-configs",
+    "availability": "open-source",
+    "license": "MIT-0",
+    "stars": 4424,
+    "tags": ["aidlc", "workflow", "orchestration", "approval-gates", "state", "audit", "multi-agent"],
+    "source_kind": "repository",
+    "verified_at": "2026-09-08"
   }
 ]

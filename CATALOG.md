@@ -1,6 +1,6 @@
 # Harness catalog
 
-Verified snapshot: **2026-08-15** · **197 entries** · **12 categories**
+Verified snapshot: **2026-09-08** · **198 entries** · **12 categories**
 
 > Scope: agent harnesses plus adjacent runtimes, coding agents, orchestration, memory, tool, sandbox, observability, and evaluation infrastructure. “Verified” means the record passed schema/duplicate checks and its discovery source or primary source was live on the snapshot date; it is not a security endorsement.
 
@@ -65,7 +65,7 @@ Turnkey coding agents you install and run: IDE extensions, terminal CLIs, Docker
 | [Windsurf Cascade](https://docs.windsurf.com/windsurf/cascade/cascade) | Proprietary | Windsurf's IDE-native agent harness with codebase context, planning, tool calls, terminal access, checkpoints, memories, rules, and MCP integrations. |
 | [Xirp](https://xirp.spotify.com) | Proprietary | Spotify's beta coding-agent harness with institutional memory: it grounds Claude, Gemini, or Codex in service ownership, dependencies, documentation, and architectural decisions, while preserving context across local and remote sessions. |
 
-## Coding harness configs and SDKs (23)
+## Coding harness configs and SDKs (24)
 
 Skill packs, slash-command libraries, meta-prompting frameworks, and official SDKs that give you the harness (the agent loop, planning, memory, hooks) without bundling a specific IDE or CLI shell.
 
@@ -83,6 +83,7 @@ Skill packs, slash-command libraries, meta-prompting frameworks, and official SD
 | [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) | Open source | Official Anthropic SDK (Python + [TypeScript](https://github.com/anthropics/claude-agent-sdk-typescript), [demos](https://github.com/anthropics/claude-agent-sdk-demos), [quickstarts](https://github.com/anthropics/claude-quickstarts)): built-in tools, MCP, long-running coding agents with session bridging. |
 | [agents-cli](https://github.com/google/agents-cli) | Unclear | Google's official CLI and skill pack that layers agent-creation, evaluation, and deployment skills on top of whatever coding assistant you already run, rather than shipping its own agent loop—the **harness** as a config/skills add-on, not a new runtime. |
 | [skillhub](https://github.com/iflytek/skillhub) | Unclear | iFlytek's self-hosted registry for publishing, versioning, and governing agent skill packages—the **harness** config layer treated as an enterprise artifact store rather than a CLI or IDE shell. |
+| [AI-DLC Workflows](https://github.com/awslabs/aidlc-workflows) | Open source | AWS Labs' software-delivery workflow engine for AI coding agents, with stage orchestration, human approval gates, persistent state, audit trails, and shared knowledge across supported coding harnesses. |
 | [Meta-Harness](https://github.com/stanford-iris-lab/meta-harness) | Unclear | Reference implementation from the Meta-Harness paper: an academic testbed for harness-engineering research, not a product—useful as a citation-grade baseline rather than something you'd run in production. |
 | [MoAI-ADK](https://github.com/modu-ai/moai-adk) | Open source | A spec-driven Claude Code development harness with plan/run/sync workflows, quality gates, model routing, and multi-model delegation. |
 | [RepoMaster](https://github.com/QuantaAlpha/RepoMaster) | Unclear | Repo-scoped research harness: builds function-call and module-dependency graphs to explore only what's needed; large relative gains on MLE-bench and GitTaskBench with lower token use. |

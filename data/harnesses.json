@@ -2,14 +2,14 @@
   "meta": {
     "name": "World of Harnesses",
     "description": "A broad catalog of AI agent harnesses and the runtime, orchestration, memory, evaluation, and infrastructure projects that shape them.",
-    "generated_at": "2026-08-15",
-    "project_count": 197,
+    "generated_at": "2026-09-08",
+    "project_count": 198,
     "upstream_project_count": 161,
-    "independent_addition_count": 36,
+    "independent_addition_count": 37,
     "category_counts": {
       "progressive-disclosure": 8,
       "coding-agent-products": 39,
-      "coding-harness-configs": 23,
+      "coding-harness-configs": 24,
       "personal-agent-runtimes": 10,
       "frameworks": 26,
       "multi-agent": 15,
@@ -21,7 +21,7 @@
       "libraries-sdks": 20
     },
     "availability_counts": {
-      "open-source": 136,
+      "open-source": 137,
       "unclear": 47,
       "proprietary": 13,
       "internal": 1
@@ -38,7 +38,7 @@
       {
         "name": "Independent primary-source pass",
         "url": "data/additions.json",
-        "captured": "2026-08-15"
+        "captured": "2026-09-08"
       }
     ]
   },
@@ -59,7 +59,7 @@
       "id": "coding-harness-configs",
       "title": "Coding harness configs and SDKs",
       "subtitle": "Skill packs, slash-command libraries, meta-prompting frameworks, and official SDKs that give you the harness (the agent loop, planning, memory, hooks) without bundling a specific IDE or CLI shell.",
-      "count": 23
+      "count": 24
     },
     {
       "id": "personal-agent-runtimes",
@@ -1407,6 +1407,32 @@
       "verified_at": "2026-08-15",
       "verification": "present-in-live-upstream-catalog",
       "provenance": "RyanAlberts/best-of-Agent-Harnesses"
+    },
+    {
+      "id": "awslabs/aidlc-workflows",
+      "name": "AI-DLC Workflows",
+      "url": "https://github.com/awslabs/aidlc-workflows",
+      "repository": "awslabs/aidlc-workflows",
+      "description": "AWS Labs' software-delivery workflow engine for AI coding agents, with stage orchestration, human approval gates, persistent state, audit trails, and shared knowledge across supported coding harnesses.",
+      "category": "coding-harness-configs",
+      "availability": "open-source",
+      "license": "MIT-0",
+      "stars": 4424,
+      "tags": [
+        "aidlc",
+        "workflow",
+        "orchestration",
+        "approval-gates",
+        "state",
+        "audit",
+        "multi-agent"
+      ],
+      "source_kind": "repository",
+      "verified_at": "2026-09-08",
+      "category_title": "Coding harness configs and SDKs",
+      "source_url": "https://github.com/awslabs/aidlc-workflows",
+      "verification": "primary-source-checked",
+      "provenance": "independent-discovery"
     },
     {
       "id": "stanford-iris-lab/meta-harness",
