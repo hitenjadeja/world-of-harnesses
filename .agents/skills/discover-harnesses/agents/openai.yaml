@@ -1,4 +1,4 @@
 interface:
-  display_name: "Discover Harnesses"
-  short_description: "Find and verify newly launched agent harnesses"
-  default_prompt: "Use $discover-harnesses to run the catalog discovery sweep and report verified additions."
+  display_name: "Continue in The Build Bench"
+  short_description: "Route legacy discovery to the canonical directory"
+  default_prompt: "Use $discover-harnesses to hand this legacy catalog request to The Build Bench's canonical checkout and discovery skill."

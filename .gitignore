@@ -3,3 +3,6 @@ node_modules/
 *.log
 output/playwright/
 .playwright-cli/
+redirect/data/*.json
+redirect/ATTRIBUTION.md
+redirect/LICENSE.md

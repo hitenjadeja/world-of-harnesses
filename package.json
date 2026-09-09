@@ -5,6 +5,8 @@
   "type": "module",
   "description": "A verified, machine-readable catalog of AI agent harnesses and adjacent runtime infrastructure.",
   "scripts": {
+    "prepare:redirect": "node scripts/prepare-redirect.mjs",
+    "validate:redirect": "npm run prepare:redirect && node --test scripts/redirect.test.mjs",
     "build": "node scripts/build-site.mjs",
     "discover": "node scripts/discover.mjs",
     "dev": "node scripts/serve.mjs",
